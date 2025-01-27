@@ -3,11 +3,11 @@ current_date=$(date +"%Y-%m-%d_%H-%M-%S")
 #create the main directory
 main_dir="$current_date"
 mkdir  -p "$main_dir"
-
+echo "The main directory is created"
 
 #create the language we use for the .txt files
 languages=("Java" "C" "Python" "C++" "C#" "JavaScript" "HTML" "React" "Swift" "Kotlin")
-
+echo "There are 10 languages in here"
 
 #Now it is the time to create the subdirectories and the .txt files
 #Use the for Loop from 101 to 110 to have the file and then use another inner loop for the file
